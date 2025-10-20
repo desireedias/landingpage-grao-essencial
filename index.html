@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grão Essencial - cafés especiais</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top navbar-dark navbar-cor-primaria">
+        <div class="container my-4">
+            <h1 class="nav-brand h2 m-0 tittle-section">Grão Essencial</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegaçao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegaçao">
+            <ul class="nav d-block d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#nossa-historia">
+                        <i class="bi bi-house-door me-1"></i>
+                        Nossa história
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sessao-especiais">
+                        <i class="bi bi-box2-heart me-1"></i>
+                        Especiais
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produtos">
+                        <i class="bi bi-card-text me-1"></i>
+                        Produtos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#novidades-contato">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Fale conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+    
+    <div data-bs-spy="scroll" data-bs-target="#menu-navegaçao" data-bs-smooth-scroll="true">
+        <section id="nossa-historia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="./imagens/slide1.jpg" alt="slide one">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./imagens/slide2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./imagens/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5 cafe-especial">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./imagens/agricultor-vertical-459.jpg" class="d-block ms-1  img-sobre"  alt="graos de cafe sobre a mesa">
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class=" display-5 text-uppercase tittle-section mt-5">Grão Especial</h2>
+                                <h3 class=" mt-4">Café levado a sério e sem complicações</h3>
+                                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nulla facilis quos repellat! Reiciendis excepturi quibusdam amet quis, perferendis enim dolores, tempora magni ullam consectetur adipisci nisi. Et, distinctio sapiente?</p>
+                                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis error itaque fugit distinctio odit, consectetur perferendis beatae et eaque veritatis voluptate dolor ipsa sapiente similique? Mollitia culpa amet temporibus quam.</p>
+                                <button type="button" class="btn btn-special  mt-3" >Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#menu-navegaçao">
+    <section class="py-5 px-4" id="sessao-especiais">
+        <div class="container-fluid">
+            <h3 class="mb-4 fs-4">Grão especial: café premium nos seus melhores momentos</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-box">
+                        <img src="./imagens/card-1-450.jpg" class="img-fluid p-3 w-100" alt="Imagem do card 1">
+                        <div class="p-3">
+                            <h3 class="fs-5 mt-3">Confraria</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, eaque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, dolor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-box h-100">
+                        <img src="./imagens/card-2-450.jpg" class="img-fluid p-3 w-100" alt="Imagem do card 2">
+                        <div class="p-3">
+                            <h3 class="fs-5 mt-3">Acesórios e kits</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, dolor.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-box h-100">
+                        <img src="./imagens/card-3-450.jpg" class="img-fluid p-3 w-100" alt="Imagem do card 3">
+                        <div class="p-3">
+                            <h3 class="fs-5 mt-3">Métodos de preparo</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sint! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+<section class="py-5 px-4" id="produtos">
+    <div class="container">
+        <div class="row">
+            <h3 class="mb-4 text-uppercase">Nossos cafés</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <aside>
+                    <nav class="nav nav-products nav-pills flex-colum">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#vulcanico" class="nav-link text-start my-2 product-btn active">Café solos Vulcanicos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sul-de-minas" class="nav-link text-start my-2 product-btn ">Café Sul de Minas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#caparao" class="nav-link text-start my-2 product-btn ">Café Caparaó</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="nav-link text-start my-2 product-btn ">Acessórios</button>
+                    </nav>
+                </aside>
+            </div>
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="vulcanico">
+                        <div class="row">
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produtos-embalagem.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">kit café em grãos classico</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produtos-embalagem.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">kit café em grãos classico</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produtos-embalagem.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">kit café em grãos classico</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produtos-embalagem.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">kit café em grãos classico</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produtos-embalagem.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">kit café em grãos classico</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="sul-de-minas">
+                        <div class="row">
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-3.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Café Sul de Minas | 250g - moído</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-4.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Café Sul de Minas | 250g - grãos</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="caparao">
+                        <div class="row">
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-2.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Caparaó | 250g - moído</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-2.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Caparaó | 250g - grãos</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="acessorios">
+                        <div class="row">
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-5.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Cafeteira | MoKa Italiana</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+                            <div class="col-md-3 mb-5">
+                                <img src="./imagens/produto-6.jpg" alt="embalagem de café especial" class="d-block w-100">
+                                <p class="p-2 ">Cafeteira | Prensa Francesa</p>
+                                <button type="button" class="btn add-btn w-100">Adicionar</button>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="py-5 px-4"  id="novidades-contato">
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <h3 class="tittle-section">Receba Novidades</h3>
+            <p>Preencha seus dados e receba novidades em seu e-mail.</p>
+            <form>
+                <div class="mt-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="mt-3">
+                    <label for="e-mail" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <button class="btn add-btn mt-3" type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="col-md-5 mt-5">
+            <div class="row">
+                <h3 class="tittle-section">Redes Sociais</h3>
+                <ul class="social-links">
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-instagram ms-2 me-2"></i>
+                        </a>
+                    </li>
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-4">
+                <h3 class="tittle-section">Endereço</h3>
+                <p>Av. dos códigos, 1337, Bairro Algoritimos. São paulo-SP. 01337-000</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

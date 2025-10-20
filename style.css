@@ -1,0 +1,128 @@
+
+
+
+:root{
+    /*cores site café*/
+    --cor-primaria: #4b2d1f; /*marrom café escuro*/
+    --cor-secundaria: #8B4513; /* Marrom Siena (quente) */
+    --cor-detaque: #A0522D;  /* Marrom avermelhado (terracota) */
+    --cor-fundo-claro: #F5DEB3; /* Creme/Bege */
+    --cor-fundo-escuro: #180d08; 
+    --cor-texto-escuro: #333;
+    --cor-texto-cinza: #c2c0c0;
+    --cor-texto-claro: #fff;
+
+    /*FONTES*/
+    --fonte-titulo: 'Bodoni Moda', serif ;
+    --fonte-corpo:  "Montserrat", sans-serif;
+
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.tittle-section{
+    font-family: var(--fonte-titulo);
+}
+
+.navbar{
+    background-color: var(--cor-primaria);
+}
+.nav-brand{
+    
+    color: #fff;
+    
+}
+
+.nav a{
+    color: #fff;
+    font-family: var(--fonte-corpo);
+}
+
+.nav a:hover{
+    color: var(--cor-detaque);
+}
+
+.navbar-toggler:hover{
+    background-color:var(--cor-detaque);
+}
+
+.carousel-item img{
+    height: 85vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cafe-especial,
+#novidades-contato{
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-fundo-claro);
+}
+
+
+.btn-special,
+.nav-products .product-btn.active{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo-claro);
+
+}
+
+.btn-special:hover,
+.nav-products .product-btn.active:hover{
+    background-color: var(--cor-detaque);
+}
+
+#sessao-especiais,
+#produtos {
+    background-color: #2c1a12;
+    color: var(--cor-fundo-claro);
+}
+
+.card-box{
+    background-color:  #1f120d;
+}
+
+.row .card-box {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.product-btn{
+    color: var(--cor-fundo-claro);
+
+}
+
+.nav-products .product-btn:hover{
+    color: var(--cor-fundo-claro);
+}
+
+.add-btn{
+    background-color: var(--cor-fundo-claro);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li i{
+    color: #F5DEB3;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+    
+}
+
+@media (max-width: 767px){
+    .img-sobre{
+        height: 400px;
+    }
+
+    .carousel img{
+        height: 380px;
+    }
+}
