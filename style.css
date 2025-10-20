@@ -117,6 +117,13 @@ body{
     
 }
 
+.footer-copyrigth{
+    background-color: var(--cor-fundo-escuro);
+    border-top: solid #4b2d1f;
+    color: var(--cor-fundo-claro);
+    font-size: 16px;
+}
+
 @media (max-width: 767px){
     .img-sobre{
         height: 400px;
